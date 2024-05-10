@@ -1,0 +1,163 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "IMMZ.D4",
+  "meta" : {
+    "lastUpdated" : "2024-05-07T18:35:09.541805Z"
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DE161<a name=\"IMMZ.D4-DE161\"> </a></td><td>Potential contraindications</td><td>Specific situations or medical conditions in which it is advised or recommended to avoid or delay administering a particular vaccine</td></tr><tr><td style=\"white-space:nowrap\">DE162<a name=\"IMMZ.D4-DE162\"> </a></td><td>Currently pregnant</td><td>The client is currently pregnant</td></tr><tr><td style=\"white-space:nowrap\">DE165<a name=\"IMMZ.D4-DE165\"> </a></td><td>Severely immunosuppressed</td><td>The client is known to be severely immunocompromised or immunosuppressed</td></tr><tr><td style=\"white-space:nowrap\">DE166<a name=\"IMMZ.D4-DE166\"> </a></td><td>History of anaphylactic reactions</td><td>The client is known to have history of anaphylaxis in the past. Anaphylaxis is a severe and potentially life-threatening allergic reaction that can occur rapidly after exposure to an allergen or vaccine component.</td></tr><tr><td style=\"white-space:nowrap\">DE167<a name=\"IMMZ.D4-DE167\"> </a></td><td>Severe allergic reactions</td><td>The client is known to have severe allergic reaction to vaccine</td></tr><tr><td style=\"white-space:nowrap\">DE168<a name=\"IMMZ.D4-DE168\"> </a></td><td>Symptomatic HIV infection</td><td>The client is experiencing HIV-related symptoms</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/v2/0203",
+        "code" : "ACSN",
+        "display" : "Accession ID"
+      }],
+      "text" : "Accession ID"
+    },
+    "system" : "https://api.staging.openconceptlab.org",
+    "value" : "/orgs/WHO-SMART-Measles-Test/CodeSystem/IMMZ.D4/"
+  }],
+  "version" : "0.1.0",
+  "name" : "IMMZ_D4",
+  "title" : "IMMZ.D4 CodeSystem for Check Contraindications Data Elements",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-05-10T17:24:11+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "CodeSystem for IMMZ.D4 Check Contraindications Data Elements",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 6,
+  "property" : [{
+    "code" : "conceptclass",
+    "uri" : "https://api.staging.openconceptlab.org/orgs/OCL/sources/Classes/concepts",
+    "description" : "Standard list of concept classes.",
+    "type" : "string"
+  },
+  {
+    "code" : "datatype",
+    "uri" : "https://api.staging.openconceptlab.org/orgs/OCL/sources/Datatypes/concepts",
+    "description" : "Standard list of concept datatypes.",
+    "type" : "string"
+  },
+  {
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties",
+    "description" : "True if the concept is not considered active.",
+    "type" : "Coding"
+  }],
+  "concept" : [{
+    "code" : "DE161",
+    "display" : "Potential contraindications",
+    "definition" : "Specific situations or medical conditions in which it is advised or recommended to avoid or delay administering a particular vaccine",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Potential contraindications"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  },
+  {
+    "code" : "DE162",
+    "display" : "Currently pregnant",
+    "definition" : "The client is currently pregnant",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Currently pregnant"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  },
+  {
+    "code" : "DE165",
+    "display" : "Severely immunosuppressed",
+    "definition" : "The client is known to be severely immunocompromised or immunosuppressed",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Severely immunosuppressed"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  },
+  {
+    "code" : "DE166",
+    "display" : "History of anaphylactic reactions",
+    "definition" : "The client is known to have history of anaphylaxis in the past. Anaphylaxis is a severe and potentially life-threatening allergic reaction that can occur rapidly after exposure to an allergen or vaccine component.",
+    "designation" : [{
+      "language" : "en",
+      "value" : "History of anaphylactic reactions"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  },
+  {
+    "code" : "DE167",
+    "display" : "Severe allergic reactions",
+    "definition" : "The client is known to have severe allergic reaction to vaccine",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Severe allergic reactions"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  },
+  {
+    "code" : "DE168",
+    "display" : "Symptomatic HIV infection",
+    "definition" : "The client is experiencing HIV-related symptoms",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Symptomatic HIV infection"
+    }],
+    "property" : [{
+      "code" : "conceptclass",
+      "valueString" : "Misc"
+    },
+    {
+      "code" : "datatype",
+      "valueString" : "N/A"
+    }]
+  }]
+}

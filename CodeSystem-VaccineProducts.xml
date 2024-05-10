@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="VaccineProducts"/>
+  <meta>
+    <lastUpdated value="2024-05-07T18:35:11.046828Z"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr><tr><td>classification</td><td>http://smart.who.int/immunizations-measles#classification</td><td>code</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">20009060/2<a name="VaccineProducts-20009060.472"> </a></td><td>Serum Institute of India Measles vaccine</td></tr><tr><td style="white-space:nowrap">7680007030014<a name="VaccineProducts-7680007030014"> </a></td><td>M-M-RvaxPRO</td></tr></table></div>
+  </text>
+  <url value="http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts"/>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0203"/>
+        <code value="ACSN"/>
+        <display value="Accession ID"/>
+      </coding>
+      <text value="Accession ID"/>
+    </type>
+    <system value="https://api.staging.openconceptlab.org"/>
+    <value value="/orgs/WHO-SMART-Measles-Test/CodeSystem/VaccineProducts/"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="VaccineProducts"/>
+  <title value="Vaccine Product codes CodeSet"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-05-10T17:24:11+00:00"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="Vaccine Product codes, containing the different available products."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <property>
+    <code value="conceptclass"/>
+    <uri value="https://api.staging.openconceptlab.org/orgs/OCL/sources/Classes/concepts"/>
+    <description value="Standard list of concept classes."/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="datatype"/>
+    <uri value="https://api.staging.openconceptlab.org/orgs/OCL/sources/Datatypes/concepts"/>
+    <description value="Standard list of concept datatypes."/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="inactive"/>
+    <uri value="http://hl7.org/fhir/concept-properties"/>
+    <description value="True if the concept is not considered active."/>
+    <type value="Coding"/>
+  </property>
+  <concept>
+    <code value="20009060%2F2"/>
+    <display value="Serum Institute of India Measles vaccine"/>
+    <designation>
+      <language value="en"/>
+      <value value="Serum Institute of India Measles vaccine"/>
+    </designation>
+    <property>
+      <code value="conceptclass"/>
+      <valueString value="Misc"/>
+    </property>
+    <property>
+      <code value="datatype"/>
+      <valueString value="N/A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7680007030014"/>
+    <display value="M-M-RvaxPRO"/>
+    <designation>
+      <language value="en"/>
+      <value value="M-M-RvaxPRO"/>
+    </designation>
+    <property>
+      <code value="conceptclass"/>
+      <valueString value="Misc"/>
+    </property>
+    <property>
+      <code value="datatype"/>
+      <valueString value="N/A"/>
+    </property>
+  </concept>
+</CodeSystem>

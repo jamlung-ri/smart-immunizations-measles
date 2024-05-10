@@ -1,0 +1,679 @@
+SMART : Validation Results
+=========================================
+
+err = 220, warn = 106, info = 134
+IG Publisher Version: 1.6.7
+Generated Fri May 10 17:26:39 UTC 2024. FHIR version 4.0.1 for smart.who.int.immunizations-measles#0.1.0 (canonical = http://smart.who.int/immunizations-measles)
+ Build Errors : 31 / 4 / 0
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesCIMR : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesEval : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesMR : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/ActorDefinition-CommunityHealthWorker : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/ActorDefinition-EPIManager : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/ActorDefinition-HealthWorker : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Immunization-Immunization1 : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Library-FHIRCommon : 0 / 25 / 2
+ /github/workspace/fsh-generated/resources/Library-FHIRHelpers : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZCommon : 0 / 23 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZCommonIzDataElements : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZConcepts : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZConfig : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZD2DTMeaslesLogic : 0 / 13 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZDT08 : 0 / 18 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZIND08 : 3 / 0 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZINDMeasles : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZIndicatorCommon : 0 / 14 / 2
+ /github/workspace/fsh-generated/resources/Library-IMMZVaccineLibrary : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Library-WHOCommon : 0 / 18 / 2
+ /github/workspace/fsh-generated/resources/Library-WHOConcepts : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/Measure-IMMZIND05 : 5 / 1 / 2
+ /github/workspace/fsh-generated/resources/Measure-IMMZIND40 : 5 / 1 / 2
+ /github/workspace/fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro : 4 / 0 / 4
+ /github/workspace/fsh-generated/resources/Medication-Vaccine-SIIMeasles : 3 / 0 / 3
+ /github/workspace/fsh-generated/resources/MedicationRequest-VaccineProposal1 : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/Patient-P123456 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-P654321 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZD2DTMeasles : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZD2DTMeaslesCI : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZDTUmbrella : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-AdministerVaccine : 5 / 5 / 5
+ /github/workspace/fsh-generated/resources/Questionnaire-IMMZD1ClientHistoryMeasles : 2 / 1 / 12
+ /github/workspace/fsh-generated/resources/Questionnaire-QIMMZCRegisterClient : 5 / 1 / 16
+ /github/workspace/fsh-generated/resources/Questionnaire-QIMMZD4CheckContraindicationsMeasles : 2 / 1 / 3
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.C.QuestionnaireResponse.1 : 0 / 0 / 4
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.2 : 2 / 1 / 3
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.3 : 4 / 2 / 4
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.3 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.4 : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/Requirements-immz-e-fxnreq : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZCRegisterClient : 0 / 0 / 23
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZD1ClientHistoryMeasles : 0 / 0 / 19
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZD4CheckContraindicationsMeasles : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZDUpdateVaccinationRecord : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGImmunization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGMedicationClassification : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineProduct : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineProposal : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineRequest : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sg-ext-administeredProduct : 0 / 1 / 1
+ /github/workspace/input/maps/IMMZCLMToPatient : 0 / 1 / 1
+ /github/workspace/input/maps/IMMZCQRToLM : 1 / 2 / 1
+ /github/workspace/input/maps/IMMZCQRToPatient : 3 / 0 / 1
+ /github/workspace/input/maps/IMMZD1LMToResources : 1 / 0 / 1
+ /github/workspace/input/maps/IMMZD1QRToLM : 5 / 0 / 1
+ /github/workspace/input/maps/IMMZD1QRToResources : 3 / 0 / 1
+ /github/workspace/input/maps/IMMZD4LMToResources : 0 / 0 / 1
+ /github/workspace/input/maps/IMMZD4QRToLM : 0 / 0 / 1
+ /github/workspace/input/maps/IMMZD4QRToResources : 3 / 0 / 1
+ /github/workspace/input/resources/CodeSystem-ICD11 : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-IMMZ.C : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-IMMZ.D1 : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-IMMZ.D1.DE1 : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-IMMZ.D1.DE5 : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-IMMZ.D4 : 2 / 2 / 1
+ /github/workspace/input/resources/CodeSystem-VaccineProducts : 2 / 2 / 1
+ /github/workspace/input/resources/ConceptMap-IMMZCConceptMap : 34 / 1 / 4
+ /github/workspace/input/resources/ConceptMap-IMMZCSexToAdministrativeGender : 9 / 1 / 1
+ /github/workspace/input/resources/ConceptMap-IMMZD1ConceptMap : 29 / 1 / 5
+ /github/workspace/input/resources/ConceptMap-IMMZD4ConceptMap : 27 / 1 / 5
+ /github/workspace/input/resources/ValueSet-ARVDrugs-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-AllVaccineTypes : 2 / 3 / 1
+ /github/workspace/input/resources/ValueSet-Birthweight-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-HIVstatus-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.C.DE5 : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.D1.DE10 : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.D1.DE1VS : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.D1.DE5VS : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.D4.DE161 : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-IMMZ.Z.DE9 : 6 / 6 / 1
+ /github/workspace/input/resources/ValueSet-Immunocompromised-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-LiveAttenuatedVaccines : 7 / 7 / 1
+ /github/workspace/input/resources/ValueSet-Negativetestresult-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-PositiveTestResult-values : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-SGImmunizationStatusCodes : 1 / 1 / 1
+ /github/workspace/input/resources/ValueSet-VSMeaslesVaccineProducts : 1 / 2 / 1
+ /github/workspace/input/resources/ValueSet-VaccineTypes : 3 / 4 / 1
+ /github/workspace/input/resources/ValueSet-pregnancystatus-values : 1 / 2 / 1
+ /github/workspace/input/resources/ValueSet-sgcountry : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCLMToPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCQRToLM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCQRToPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD1LMToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD1QRToLM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD1QRToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4LMToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4QRToLM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4QRToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-QIMMZCRegisterClient-form.html: unexpected non-end of element null::div  at line 339 column 250
+ERROR: /github/workspace/output/Questionnaire-AdministerVaccine-form.html: unexpected non-end of element null::div  at line 339 column 247
+ERROR: /github/workspace/output/Questionnaire-IMMZD1ClientHistoryMeasles-form.html: unexpected non-end of element null::div  at line 339 column 256
+ERROR: /github/workspace/output/Questionnaire-QIMMZD4CheckContraindicationsMeasles-form.html: unexpected non-end of element null::div  at line 339 column 266
+ERROR: /github/workspace/output/ActivityDefinition-IMMZD2DTMeaslesCIMR.html#/html/body/div/div/div/div/div/div/p/a at Line 351, column 1162: The link 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' for "http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles" cannot be resolved
+ERROR: /github/workspace/output/ActivityDefinition-IMMZD2DTMeaslesEval.html#/html/body/div/div/div/div/div/div/p/a at Line 351, column 1165: The link 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' for "http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles" cannot be resolved
+ERROR: /github/workspace/output/ActivityDefinition-IMMZD2DTMeaslesMR.html#/html/body/div/div/div/div/div/div/p/a at Line 351, column 1141: The link 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' for "http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-IMMZD2DTMeaslesCI.html#/html/body/div/div/div/div/div/div/p/a at Line 351, column 1414: The link 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' for "http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles" cannot be resolved
+ERROR: /github/workspace/output/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.2.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 311, column 1178: The link 'CodeSystem-ICD11.html#ICD11-XM4AJ8' for "ICD-11" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.3.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 313, column 1178: The link 'CodeSystem-ICD11.html#ICD11-XM4AJ8' for "ICD-11" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.3.html#/html/body/div/div/div/div/div/div/table/tr/td/span/span/a at Line 316, column 1166: The link 'CodeSystem-ICD11.html#ICD11-XM4AJ8' for "ICD-11" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-IMMZ.Z.DE9.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 361, column 335: The link 'CodeSystem-ICD11.html#ICD11-XM8L15' for "XM8L15" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-IMMZ.Z.DE9.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 361, column 441: The link 'CodeSystem-ICD11.html#ICD11-XM8TF3' for "XM8TF3" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-IMMZ.Z.DE9.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 361, column 584: The link 'CodeSystem-ICD11.html#ICD11-XM21H2' for "XM21H2" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-IMMZ.Z.DE9.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 361, column 717: The link 'CodeSystem-ICD11.html#ICD11-XM4AJ8' for "XM4AJ8" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-IMMZ.Z.DE9.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 361, column 871: The link 'CodeSystem-ICD11.html#ICD11-XM9439' for "XM9439" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 704: The link 'CodeSystem-ICD11.html#ICD11-XM8L15' for "XM8L15" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 786: The link 'CodeSystem-ICD11.html#ICD11-XM8TF3' for "XM8TF3" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 868: The link 'CodeSystem-ICD11.html#ICD11-XM21H2' for "XM21H2" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 950: The link 'CodeSystem-ICD11.html#ICD11-XM4AJ8' for "XM4AJ8" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 1032: The link 'CodeSystem-ICD11.html#ICD11-XM9439' for "XM9439" cannot be resolved (valid targets: 60 targets)
+ERROR: /github/workspace/output/ValueSet-LiveAttenuatedVaccines.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 358, column 1114: The link 'CodeSystem-ICD11.html#ICD11-XM2340' for "XM2340" cannot be resolved (valid targets: 60 targets)
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesCIMR.json ==
+INFORMATION: ActivityDefinition/IMMZD2DTMeaslesCIMR: ActivityDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+INFORMATION: ActivityDefinition/IMMZD2DTMeaslesCIMR: ActivityDefinition.product.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: ActivityDefinition.text.div: Hyperlink 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' at 'div/p/a' for 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' does not resolve
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesEval.json ==
+INFORMATION: ActivityDefinition/IMMZD2DTMeaslesEval: ActivityDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+ERROR: ActivityDefinition.text.div: Hyperlink 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' at 'div/p/a' for 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' does not resolve
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesMR.json ==
+INFORMATION: ActivityDefinition/IMMZD2DTMeaslesMR: ActivityDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+INFORMATION: ActivityDefinition/IMMZD2DTMeaslesMR: ActivityDefinition.product.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: ActivityDefinition.text.div: Hyperlink 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' at 'div/p/a' for 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' does not resolve
+== fsh-generated/resources/ActorDefinition-CommunityHealthWorker.json ==
+WARNING: ActorDefinition/CommunityHealthWorker: ActorDefinition.meta.profile[0]: Profile reference 'http://smart.who.int/smart-base/StructureDefinition/SGPersona' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ActorDefinition-EPIManager.json ==
+WARNING: ActorDefinition/EPIManager: ActorDefinition.meta.profile[0]: Profile reference 'http://smart.who.int/smart-base/StructureDefinition/SGPersona' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ActorDefinition-HealthWorker.json ==
+WARNING: ActorDefinition/HealthWorker: ActorDefinition.meta.profile[0]: Profile reference 'http://smart.who.int/smart-base/StructureDefinition/SGPersona' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/Immunization-Immunization1.json ==
+INFORMATION: Immunization/Immunization1: Immunization.extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts|0.1.0
+ERROR: Immunization/Immunization1: Immunization.extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown code '20009060/2' in the CodeSystem 'http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts' version '0.1.0'
+INFORMATION: Immunization/Immunization1: Immunization.vaccineCode: Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+== fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json ==
+WARNING: ImplementationGuide/smart.who.int.immunizations-measles: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/smart-base/ImplementationGuide-SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Library-FHIRCommon.json ==
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRHelpers.ToInterval has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRCommon.Extensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRCommon.ModifierExtensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRCommon.BaseExtensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/FHIRCommon.cql: The function FHIRCommon.BaseModifierExtensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/FHIRCommon: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-FHIRHelpers.json ==
+INFORMATION: Library/FHIRHelpers: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZCommon.json ==
+WARNING: /github/workspace/input/cql/IMMZCommon.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZCommon.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZCommon.cql: The function FHIRHelpers.ToInterval has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZCommon.cql: The function WHOCommon.ModifierExtension has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/IMMZCommon: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZCommonIzDataElements.json ==
+WARNING: /github/workspace/input/cql/IMMZCommonIzDataElements.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZCommonIzDataElements.cql: The function WHOCommon.Official has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/IMMZCommonIzDataElements: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZConcepts.json ==
+INFORMATION: Library/IMMZConcepts: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+ERROR: Library/IMMZConcepts: Library.relatedArtifact[4].resource: Canonical URL 'http://hl7.org/fhir/sid/ciel' does not resolve
+ERROR: Library/IMMZConcepts: Library.relatedArtifact[12].resource: Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips' does not resolve
+== fsh-generated/resources/Library-IMMZConfig.json ==
+INFORMATION: Library/IMMZConfig: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZD2DTMeaslesLogic.json ==
+WARNING: /github/workspace/input/cql/IMMZD2DTMeaslesLogic.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZD2DTMeaslesLogic.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/IMMZD2DTMeaslesLogic: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZDT08.json ==
+WARNING: /github/workspace/input/cql/IMMZDT08.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: IMMZDT08.cql: Result type choice<System.String,System.Integer> of definition MCV Next Dose Number is not supported; implementations may not be able to use the result of this expression
+INFORMATION: Library/IMMZDT08: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZIND08.json ==
+ERROR: IMMZIND08: Could not resolve identifier MCV Doses Administered to Patient During Measurement Period in library IMMZIndicatorCommon.
+ERROR: IMMZIND08: Could not resolve identifier MCV Doses Administered to Patient During Measurement Period in library IMMZIndicatorCommon.
+ERROR: IMMZIND08.cql: CQL Processing failed with (2) errors.
+INFORMATION: Library/IMMZIND08: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZINDMeasles.json ==
+WARNING: /github/workspace/input/cql/IMMZINDMeasles.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/IMMZINDMeasles: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZIndicatorCommon.json ==
+WARNING: /github/workspace/input/cql/IMMZIndicatorCommon.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZIndicatorCommon.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/IMMZIndicatorCommon.cql: The function WHOCommon.Official has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/IMMZIndicatorCommon: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-IMMZVaccineLibrary.json ==
+INFORMATION: Library/IMMZVaccineLibrary: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-WHOCommon.json ==
+WARNING: /github/workspace/input/cql/WHOCommon.cql: The function FHIRHelpers.ToString has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/WHOCommon.cql: The function FHIRHelpers.ToDateTime has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/WHOCommon.cql: The function WHOCommon.Extensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+WARNING: /github/workspace/input/cql/WHOCommon.cql: The function WHOCommon.ModifierExtensions has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
+INFORMATION: Library/WHOCommon: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Library-WHOConcepts.json ==
+INFORMATION: Library/WHOConcepts: Library.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+ERROR: Library/WHOConcepts: Library.relatedArtifact[4].resource: Canonical URL 'http://hl7.org/fhir/sid/ciel' does not resolve
+== fsh-generated/resources/Measure-IMMZIND05.json ==
+ERROR: Measure/IMMZIND05: Measure.group[0].population[0]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND05: Measure.group[0].population[1]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND05: Measure.group[0].population[2]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND05: Measure.group[0].stratifier[0]: Constraint failed: cmp-33: 'Computable measures must use text/cql-expression, text/cql-identifier, or text/fhirpath for all stratifier criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND05: Measure: Constraint failed: cmp-1: 'Population basis must be specified at the root, or on each group' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+WARNING: Measure/IMMZIND05: Measure: Published measures SHOULD conform to the ShareableMeasure profile, which says that the element Measure.title is mandatory, but it is not present
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/Measure-IMMZIND40.json ==
+ERROR: Measure/IMMZIND40: Measure.group[0].population[0]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND40: Measure.group[0].population[1]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND40: Measure.group[0].population[2]: Constraint failed: cmp-32: 'Computable measures must use text/cql-expression or text/cql-identifier for all criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND40: Measure.group[0].stratifier[0]: Constraint failed: cmp-33: 'Computable measures must use text/cql-expression, text/cql-identifier, or text/fhirpath for all stratifier criteria' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+ERROR: Measure/IMMZIND40: Measure: Constraint failed: cmp-1: 'Population basis must be specified at the root, or on each group' (defined in http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm)
+WARNING: Measure/IMMZIND40: Measure: Published measures SHOULD conform to the ShareableMeasure profile, which says that the element Measure.title is mandatory, but it is not present
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro.json ==
+INFORMATION: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown code 'XM8L15' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+ERROR: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Measles Vaccine Type ValueSet' (http://smart.who.int/immunizations-measles/ValueSet/VaccineTypes|0.1.0), and a coding from this value set is required) (codes = http://id.who.int/icd/release/11/mms#XM8L15)
+INFORMATION: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[1].value.ofType(CodeableConcept).coding[0].code: Unknown code 'XM2340' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+ERROR: Medication/Vaccine-MSDMMRVaxPro: Medication.extension[1].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Measles Vaccine Type ValueSet' (http://smart.who.int/immunizations-measles/ValueSet/VaccineTypes|0.1.0), and a coding from this value set is required) (codes = http://id.who.int/icd/release/11/mms#XM2340)
+INFORMATION: Medication/Vaccine-MSDMMRVaxPro: Medication.code: Reference to experimental CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts|0.1.0
+== fsh-generated/resources/Medication-Vaccine-SIIMeasles.json ==
+INFORMATION: Medication/Vaccine-SIIMeasles: Medication.extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: Medication/Vaccine-SIIMeasles: Medication.extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown code 'XM8L15' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+ERROR: Medication/Vaccine-SIIMeasles: Medication.extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Measles Vaccine Type ValueSet' (http://smart.who.int/immunizations-measles/ValueSet/VaccineTypes|0.1.0), and a coding from this value set is required) (codes = http://id.who.int/icd/release/11/mms#XM8L15)
+INFORMATION: Medication/Vaccine-SIIMeasles: Medication.code: Reference to experimental CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts|0.1.0
+ERROR: Medication/Vaccine-SIIMeasles: Medication.code.coding[0].code: Unknown code '20009060/2' in the CodeSystem 'http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts' version '0.1.0'
+== fsh-generated/resources/MedicationRequest-VaccineProposal1.json ==
+INFORMATION: MedicationRequest/VaccineProposal1: MedicationRequest.medication.ofType(CodeableConcept): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: MedicationRequest/VaccineProposal1: MedicationRequest.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Measles Vaccine Type ValueSet' (http://smart.who.int/immunizations-measles/ValueSet/VaccineTypes|0.1.0), and a coding from this value set is required) (codes = http://id.who.int/icd/release/11/mms#XM28X5)
+== fsh-generated/resources/Patient-P123456.json ==
+== fsh-generated/resources/Patient-P654321.json ==
+== fsh-generated/resources/PlanDefinition-IMMZD2DTMeasles.json ==
+INFORMATION: PlanDefinition/IMMZD2DTMeasles: PlanDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition|2.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PlanDefinition/IMMZD2DTMeasles: PlanDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/PlanDefinition-IMMZD2DTMeaslesCI.json ==
+INFORMATION: PlanDefinition/IMMZD2DTMeaslesCI: PlanDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition|2.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PlanDefinition/IMMZD2DTMeaslesCI: PlanDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+ERROR: PlanDefinition.text.div: Hyperlink 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' at 'div/p/a' for 'http://smart.who.int/immunizations-measles/Library/IMMZD2DTMeasles' does not resolve
+== fsh-generated/resources/PlanDefinition-IMMZDTUmbrella.json ==
+INFORMATION: PlanDefinition/IMMZDTUmbrella: PlanDefinition.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategydefinition|2.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: PlanDefinition/IMMZDTUmbrella: PlanDefinition.extension[0].value.ofType(code): Reference to draft CodeSystem http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-capability|1.0.0
+== fsh-generated/resources/Questionnaire-AdministerVaccine.json ==
+INFORMATION: Questionnaire/AdministerVaccine: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-smap|3.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Questionnaire/AdministerVaccine: Questionnaire.contained[0]/*ValueSet/VSMeaslesVaccineProducts*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/AdministerVaccine: Questionnaire.contained[0]/*ValueSet/VSMeaslesVaccineProducts*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+WARNING: Questionnaire/AdministerVaccine: Questionnaire.contained[1]/*ValueSet/SGImmunizationStatusCodes*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/AdministerVaccine: Questionnaire.contained[1]/*ValueSet/SGImmunizationStatusCodes*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: Questionnaire/AdministerVaccine: Questionnaire.contained[2]/*ValueSet/AllVaccineTypes*/.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
+WARNING: Questionnaire/AdministerVaccine: Questionnaire.contained[2]/*ValueSet/AllVaccineTypes*/.compose.include[2]: Unknown System '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' could not be found, so the code cannot be validated)
+WARNING: Questionnaire/AdministerVaccine: Questionnaire.contained[2]/*ValueSet/AllVaccineTypes*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/AdministerVaccine: Questionnaire.contained[2]/*ValueSet/AllVaccineTypes*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: Questionnaire/AdministerVaccine: Questionnaire: Constraint failed: dom-4: 'If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource)
+WARNING: ValueSet.where(id = 'AllVaccineTypes'): Error from http://tx.fhir.org/r4: Unable to provide support for code system /orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/
+== fsh-generated/resources/Questionnaire-IMMZD1ClientHistoryMeasles.json ==
+WARNING: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.contained[0]/*ValueSet/IMMZ.D1.DE10*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.contained[0]/*ValueSet/IMMZ.D1.DE10*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[4].code[1]: Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[6].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[7].item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire.item[7].item[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+ERROR: Questionnaire/IMMZD1ClientHistoryMeasles: Questionnaire: Constraint failed: dom-4: 'If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource)
+== fsh-generated/resources/Questionnaire-QIMMZCRegisterClient.json ==
+WARNING: Questionnaire/QIMMZCRegisterClient: Questionnaire.contained[0]/*ValueSet/IMMZ.C.DE5*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/QIMMZCRegisterClient: Questionnaire.contained[0]/*ValueSet/IMMZ.C.DE5*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].item[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+ERROR: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].item[1].code[1].display: Wrong Display Name 'First name' for http://loinc.org#45392-8. Valid display is 'Patient First (Given) name' (en-US) (for the language(s) 'en')
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].item[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+ERROR: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[1].item[2].code[1].display: Wrong Display Name 'Last name' for http://loinc.org#45394-4. Valid display is 'Patient Last (Family) name' (en-US) (for the language(s) 'en')
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[4].item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[4].item[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[4].item[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[6].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: Questionnaire/QIMMZCRegisterClient: Questionnaire.item[7].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+ERROR: Questionnaire/QIMMZCRegisterClient: Questionnaire: Constraint failed: dom-4: 'If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource)
+ERROR: Questionnaire/QIMMZCRegisterClient: Questionnaire: Constraint failed: que-2: 'The link ids for groups and questions must be unique within the questionnaire' (defined in http://hl7.org/fhir/StructureDefinition/Questionnaire)
+== fsh-generated/resources/Questionnaire-QIMMZD4CheckContraindicationsMeasles.json ==
+WARNING: Questionnaire/QIMMZD4CheckContraindicationsMeasles: Questionnaire.contained[0]/*ValueSet/IMMZ.D4.DE161*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: Questionnaire/QIMMZD4CheckContraindicationsMeasles: Questionnaire.contained[0]/*ValueSet/IMMZ.D4.DE161*/.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: Questionnaire/QIMMZD4CheckContraindicationsMeasles: Questionnaire.item[0].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+ERROR: Questionnaire/QIMMZD4CheckContraindicationsMeasles: Questionnaire: Constraint failed: dom-4: 'If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource)
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.C.QuestionnaireResponse.1.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.C.QuestionnaireResponse.1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.C.QuestionnaireResponse.1: QuestionnaireResponse.item[6].answer[0].value.ofType(Coding): Reference to draft CodeSystem urn:iso:std:iso:3166:-2|2021
+INFORMATION: QuestionnaireResponse/Example.IMMZ.C.QuestionnaireResponse.1: QuestionnaireResponse.item[6].answer[0]: Cannot validate options because no option or options are provided
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.1.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.2.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.2: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.2: QuestionnaireResponse.item[5].item[0].answer[0].value.ofType(Coding): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.2: QuestionnaireResponse.item[5].item[0].answer[0].value.ofType(Coding).code: Unknown code 'XM4AJ8' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+WARNING: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.2: QuestionnaireResponse.item[5].item[0].answer[0]: ValueSet '#IMMZ.Z.DE9' not found
+ERROR: QuestionnaireResponse.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM4AJ8' at 'div/table/tr/td/span/span/a' for 'ICD-11' does not resolve
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.3.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[7].item[0].answer[0].value.ofType(Coding): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[7].item[0].answer[0].value.ofType(Coding).code: Unknown code 'XM4AJ8' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[8].item[0].answer[0].value.ofType(Coding): Reference to experimental CodeSystem http://id.who.int/icd/release/11/mms|0.1.0
+ERROR: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[8].item[0].answer[0].value.ofType(Coding).code: Unknown code 'XM4AJ8' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0'
+WARNING: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[7].item[0].answer[0]: ValueSet '#IMMZ.Z.DE9' not found
+WARNING: QuestionnaireResponse/Example.IMMZ.D1.QuestionnaireResponse.3: QuestionnaireResponse.item[8].item[0].answer[0]: ValueSet '#IMMZ.Z.DE9' not found
+ERROR: QuestionnaireResponse.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM4AJ8' at 'div/table/tr/td/span/span/a' for 'ICD-11' does not resolve
+ERROR: QuestionnaireResponse.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM4AJ8' at 'div/table/tr/td/span/span/a' for 'ICD-11' does not resolve
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.1.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.1: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.2.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.2: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.3.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.3: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.4.json ==
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.4: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.4: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.4: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+INFORMATION: QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.4: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding): Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+== fsh-generated/resources/Requirements-immz-e-fxnreq.json ==
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-IMMZCRegisterClient.json ==
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[9].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[10].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[11].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[12].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[13].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.snapshot.element[14].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[1].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[6].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[7].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[8].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[9].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[10].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+INFORMATION: StructureDefinition/IMMZCRegisterClient: StructureDefinition.differential.element[11].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C|0.1.0
+== fsh-generated/resources/StructureDefinition-IMMZD1ClientHistoryMeasles.json ==
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[6].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[7].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[8].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[13].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.snapshot.element[14].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[3].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[4].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[5].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[6].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[7].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[8].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[10].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+INFORMATION: StructureDefinition/IMMZD1ClientHistoryMeasles: StructureDefinition.differential.element[11].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D1|0.1.0
+== fsh-generated/resources/StructureDefinition-IMMZD4CheckContraindicationsMeasles.json ==
+INFORMATION: StructureDefinition/IMMZD4CheckContraindicationsMeasles: StructureDefinition.snapshot.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+INFORMATION: StructureDefinition/IMMZD4CheckContraindicationsMeasles: StructureDefinition.differential.element[2].code[0]: Reference to draft CodeSystem http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4|0.1.0
+== fsh-generated/resources/StructureDefinition-IMMZDUpdateVaccinationRecord.json ==
+== fsh-generated/resources/StructureDefinition-SGImmunization.json ==
+== fsh-generated/resources/StructureDefinition-SGMedicationClassification.json ==
+== fsh-generated/resources/StructureDefinition-SGVaccineProduct.json ==
+== fsh-generated/resources/StructureDefinition-SGVaccineProposal.json ==
+== fsh-generated/resources/StructureDefinition-SGVaccineRequest.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/immunizations-measles/StructureDefinition/SGVaccineRequest'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sg-ext-administeredProduct.json ==
+WARNING: StructureDefinition/sg-ext-administeredProduct: StructureDefinition.context[0]: Review the extension type for sg-ext-administeredProduct: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== input/maps/IMMZCLMToPatient.fml ==
+WARNING: StructureMap/IMMZCLMToPatient: StructureMap.group[0].rule[4].dependent[0]: The group NameToHumanName has already been used with different parameters, so the type checking may be incorrect (other = [source IMMZCRegisterClient name, target HumanName hname]; this = [source http://smart.who.int/immunizations-measles/StructureDefinition/IMMZCRegisterClient#IMMZCRegisterClient.caregiver name, target HumanName hname])
+== input/maps/IMMZCQRToLM.fml ==
+ERROR: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[1].dependent[0].variable[0]: The source parameter 'name'  was not found
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[2].rule[0].rule[0].source[0]: The target path coding.code refers to the path QuestionnaireResponse.item.answer.value[x].code which could be a reference to multiple elements (Coding.code, Quantity.code). No further checking can be performed
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[6].rule[0].rule[1].source[0]: The target path coding.display refers to the path QuestionnaireResponse.item.answer.value[x].display which could be a reference to multiple elements (Coding.display, Reference.display). No further checking can be performed
+== input/maps/IMMZCQRToPatient.fml ==
+ERROR: StructureMap/IMMZCQRToPatient: StructureMap.group[0].rule[2].rule[0].target[0]: The target context 'model' is not known at this point
+ERROR: StructureMap/IMMZCQRToPatient: StructureMap.group[0].rule[2].rule[0].dependent[0].variable[1]: The target parameter 'immzc'  was not found
+ERROR: StructureMap/IMMZCQRToPatient: StructureMap.group[0].rule[2].rule[1].dependent[0].variable[0]: The source parameter 'immzc'  was not found
+== input/maps/IMMZD1LMToResources.fml ==
+ERROR: StructureMap/IMMZD1LMToResources: StructureMap.group[0].rule[1].rule[7].rule[3].target[0]: Transform cast not checked yet
+== input/maps/IMMZD1QRToLM.fml ==
+ERROR: StructureMap/IMMZD1QRToLM: StructureMap.group[0].rule[1].rule[7].rule[0].source[0]: The source context history is not known at this point
+ERROR: StructureMap/IMMZD1QRToLM: StructureMap.group[0].rule[1].rule[7].rule[0].rule[0].source[0]: The source context entry is not known at this point
+ERROR: StructureMap/IMMZD1QRToLM: StructureMap.group[0].rule[1].rule[7].rule[0].rule[0].rule[0].source[0]: The source context answer is not known at this point
+ERROR: StructureMap/IMMZD1QRToLM: StructureMap.group[0].rule[1].rule[7].rule[0].rule[1].source[0]: The source context entry is not known at this point
+ERROR: StructureMap/IMMZD1QRToLM: StructureMap.group[0].rule[1].rule[7].rule[0].rule[1].rule[0].source[0]: The source context answer is not known at this point
+== input/maps/IMMZD1QRToResources.fml ==
+ERROR: StructureMap/IMMZD1QRToResources: StructureMap.group[0].rule[0].rule[0].target[0]: The target context 'model' is not known at this point
+ERROR: StructureMap/IMMZD1QRToResources: StructureMap.group[0].rule[0].rule[0].dependent[0].variable[1]: The target parameter 'immz'  was not found
+ERROR: StructureMap/IMMZD1QRToResources: StructureMap.group[0].rule[0].rule[1].dependent[0].variable[0]: The source parameter 'immz'  was not found
+== input/maps/IMMZD4LMToResources.fml ==
+== input/maps/IMMZD4QRToLM.fml ==
+== input/maps/IMMZD4QRToResources.fml ==
+ERROR: StructureMap/IMMZD4QRToResources: StructureMap.group[0].rule[0].rule[0].target[0]: The target context 'model' is not known at this point
+ERROR: StructureMap/IMMZD4QRToResources: StructureMap.group[0].rule[0].rule[0].dependent[0].variable[1]: The target parameter 'immz'  was not found
+ERROR: StructureMap/IMMZD4QRToResources: StructureMap.group[0].rule[0].rule[1].dependent[0].variable[0]: The source parameter 'immz'  was not found
+== input/resources/CodeSystem-ICD11.json ==
+WARNING: CodeSystem/ICD11: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/ICD11: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/ICD11: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/ICD11: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-IMMZ.C.json ==
+WARNING: CodeSystem/IMMZ.C: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/IMMZ.C: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/IMMZ.C: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/IMMZ.C: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-IMMZ.D1.json ==
+WARNING: CodeSystem/IMMZ.D1: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/IMMZ.D1: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/IMMZ.D1: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/IMMZ.D1: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-IMMZ.D1.DE1.json ==
+WARNING: CodeSystem/IMMZ.D1.DE1: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/IMMZ.D1.DE1: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/IMMZ.D1.DE1: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/IMMZ.D1.DE1: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-IMMZ.D1.DE5.json ==
+WARNING: CodeSystem/IMMZ.D1.DE5: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/IMMZ.D1.DE5: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/IMMZ.D1.DE5: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/IMMZ.D1.DE5: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-IMMZ.D4.json ==
+WARNING: CodeSystem/IMMZ.D4: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/IMMZ.D4: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/IMMZ.D4: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/IMMZ.D4: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/CodeSystem-VaccineProducts.json ==
+WARNING: CodeSystem/VaccineProducts: CodeSystem.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: CodeSystem/VaccineProducts: CodeSystem.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: CodeSystem/VaccineProducts: CodeSystem.property[2]: Unknown CodeSystem Property 'http://hl7.org/fhir/concept-properties'. If you are creating your own property, do not create it in the HL7 namespace
+WARNING: CodeSystem/VaccineProducts: CodeSystem: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+== input/resources/ConceptMap-IMMZCConceptMap.json ==
+ERROR: ConceptMap.group[0].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[5].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[6].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[7].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[5].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[6].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[7].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[8].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[9].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[10].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[11].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[12].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[3].target[0]: Unrecognized property 'relationship'
+WARNING: ConceptMap/IMMZCConceptMap: ConceptMap.identifier.type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ConceptMap/IMMZCConceptMap: ConceptMap.identifier.type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: ConceptMap/IMMZCConceptMap: ConceptMap.group[2].target: Target Code System http://loinc.org is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZCConceptMap: ConceptMap.group[3].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZCConceptMap: ConceptMap.group[4].source: Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
+== input/resources/ConceptMap-IMMZCSexToAdministrativeGender.json ==
+ERROR: ConceptMap.group[0].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[3].target[0]: Unrecognized property 'relationship'
+WARNING: ConceptMap/IMMZCSexToAdministrativeGender: ConceptMap.identifier.type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ConceptMap/IMMZCSexToAdministrativeGender: ConceptMap.identifier.type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ConceptMap-IMMZD1ConceptMap.json ==
+ERROR: ConceptMap.group[0].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[5].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[5].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[4].target[0]: Unrecognized property 'relationship'
+WARNING: ConceptMap/IMMZD1ConceptMap: ConceptMap.identifier.type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ConceptMap/IMMZD1ConceptMap: ConceptMap.identifier.type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: ConceptMap/IMMZD1ConceptMap: ConceptMap.group[2].target: Target Code System http://loinc.org is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD1ConceptMap: ConceptMap.group[3].source: Source Code System http://loinc.org is only supported on the terminology server, so the source codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD1ConceptMap: ConceptMap.group[4].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD1ConceptMap: ConceptMap.group[5].source: Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
+== input/resources/ConceptMap-IMMZD4ConceptMap.json ==
+ERROR: ConceptMap.group[0].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[0].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[1].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[2].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[3].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[4].element[4].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[0].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[1].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[2].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[3].target[0]: Unrecognized property 'relationship'
+ERROR: ConceptMap.group[5].element[4].target[0]: Unrecognized property 'relationship'
+WARNING: ConceptMap/IMMZD4ConceptMap: ConceptMap.identifier.type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ConceptMap/IMMZD4ConceptMap: ConceptMap.identifier.type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+INFORMATION: ConceptMap/IMMZD4ConceptMap: ConceptMap.group[2].target: Target Code System http://loinc.org is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD4ConceptMap: ConceptMap.group[3].source: Source Code System http://loinc.org is only supported on the terminology server, so the source codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD4ConceptMap: ConceptMap.group[4].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
+INFORMATION: ConceptMap/IMMZD4ConceptMap: ConceptMap.group[5].source: Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
+== input/resources/ValueSet-ARVDrugs-values.json ==
+WARNING: ValueSet/ARVDrugs-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/ARVDrugs-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-AllVaccineTypes.json ==
+WARNING: ValueSet/AllVaccineTypes: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/AllVaccineTypes: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: ValueSet/AllVaccineTypes: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
+WARNING: ValueSet/AllVaccineTypes: ValueSet.compose.include[2]: Unknown System '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' could not be found, so the code cannot be validated)
+WARNING: ValueSet.where(id = 'AllVaccineTypes'): Error from http://tx.fhir.org/r4: Unable to provide support for code system /orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/
+== input/resources/ValueSet-Birthweight-values.json ==
+WARNING: ValueSet/Birthweight-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/Birthweight-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-HIVstatus-values.json ==
+WARNING: ValueSet/HIVstatus-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/HIVstatus-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.C.DE5.json ==
+WARNING: ValueSet/IMMZ.C.DE5: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.C.DE5: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.D1.DE10.json ==
+WARNING: ValueSet/IMMZ.D1.DE10: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.D1.DE10: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.D1.DE1VS.json ==
+WARNING: ValueSet/IMMZ.D1.DE1VS: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.D1.DE1VS: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.D1.DE5VS.json ==
+WARNING: ValueSet/IMMZ.D1.DE5VS: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.D1.DE5VS: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.D4.DE161.json ==
+WARNING: ValueSet/IMMZ.D4.DE161: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.D4.DE161: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-IMMZ.Z.DE9.json ==
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/IMMZ.Z.DE9: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.compose.include[0].concept[1]: The code 'XM8L15' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM8L15' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.compose.include[0].concept[2]: The code 'XM8TF3' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM8TF3' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.compose.include[0].concept[3]: The code 'XM21H2' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM21H2' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.compose.include[0].concept[4]: The code 'XM4AJ8' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM4AJ8' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/IMMZ.Z.DE9: ValueSet.compose.include[0].concept[5]: The code 'XM9439' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM9439' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM8L15' at 'div/ul/li/table/tr/td/a' for 'XM8L15' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM8TF3' at 'div/ul/li/table/tr/td/a' for 'XM8TF3' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM21H2' at 'div/ul/li/table/tr/td/a' for 'XM21H2' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM4AJ8' at 'div/ul/li/table/tr/td/a' for 'XM4AJ8' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM9439' at 'div/ul/li/table/tr/td/a' for 'XM9439' does not resolve
+== input/resources/ValueSet-Immunocompromised-values.json ==
+WARNING: ValueSet/Immunocompromised-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/Immunocompromised-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-LiveAttenuatedVaccines.json ==
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/LiveAttenuatedVaccines: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[3]: The code 'XM8L15' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM8L15' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[4]: The code 'XM8TF3' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM8TF3' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[5]: The code 'XM21H2' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM21H2' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[6]: The code 'XM4AJ8' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM4AJ8' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[7]: The code 'XM9439' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM9439' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+WARNING: ValueSet/LiveAttenuatedVaccines: ValueSet.compose.include[0].concept[8]: The code 'XM2340' is not valid in the system http://id.who.int/icd/release/11/mms (Unknown code 'XM2340' in the CodeSystem 'http://id.who.int/icd/release/11/mms' version '0.1.0')
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM8L15' at 'div/ul/li/table/tr/td/a' for 'XM8L15' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM8TF3' at 'div/ul/li/table/tr/td/a' for 'XM8TF3' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM21H2' at 'div/ul/li/table/tr/td/a' for 'XM21H2' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM4AJ8' at 'div/ul/li/table/tr/td/a' for 'XM4AJ8' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM9439' at 'div/ul/li/table/tr/td/a' for 'XM9439' does not resolve
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM2340' at 'div/ul/li/table/tr/td/a' for 'XM2340' does not resolve
+== input/resources/ValueSet-Negativetestresult-values.json ==
+WARNING: ValueSet/Negativetestresult-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/Negativetestresult-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-PositiveTestResult-values.json ==
+WARNING: ValueSet/PositiveTestResult-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/PositiveTestResult-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-SGImmunizationStatusCodes.json ==
+WARNING: ValueSet/SGImmunizationStatusCodes: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/SGImmunizationStatusCodes: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+== input/resources/ValueSet-VSMeaslesVaccineProducts.json ==
+WARNING: ValueSet/VSMeaslesVaccineProducts: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/VSMeaslesVaccineProducts: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+WARNING: ValueSet/VSMeaslesVaccineProducts: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/resources/ValueSet-VaccineTypes.json ==
+WARNING: ValueSet/VaccineTypes: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/VaccineTypes: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+ERROR: ValueSet/VaccineTypes: ValueSet.compose.include[2]: URI values in ValueSet.compose.include.system must be absolute
+WARNING: ValueSet/VaccineTypes: ValueSet.compose.include[2]: Unknown System '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem '/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/' could not be found, so the code cannot be validated)
+WARNING: ValueSet/VaccineTypes: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'VaccineTypes'): Error from http://tx.fhir.org/r4: Unable to provide support for code system /orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/
+ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-ICD11.html#ICD11-XM2340' at 'div/ul/li/table/tr/td/a' for 'XM2340' does not resolve
+== input/resources/ValueSet-pregnancystatus-values.json ==
+WARNING: ValueSet/pregnancystatus-values: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/pregnancystatus-values: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve
+WARNING: ValueSet/pregnancystatus-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+== input/resources/ValueSet-sgcountry.json ==
+WARNING: ValueSet/sgcountry: ValueSet.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/v2/0203' could not be found, so the code cannot be validated
+ERROR: ValueSet/sgcountry: ValueSet.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/v2/0203' does not resolve

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSMeaslesVaccineProducts"/>
+  <meta>
+    <lastUpdated value="2024-05-07T18:35:54.728981Z"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-VaccineProducts.html"><code>http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts</code></a></li></ul></div>
+  </text>
+  <url value="http://smart.who.int/immunizations-measles/ValueSet/VSMeaslesVaccineProducts"/>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://hl7.org/fhir/v2/0203"/>
+        <code value="ACSN"/>
+        <display value="Accession ID"/>
+      </coding>
+      <text value="Accession ID"/>
+    </type>
+    <system value="https://api.staging.openconceptlab.org"/>
+    <value value="/orgs/WHO-SMART-Measles-Test/ValueSet/VSMeaslesVaccineProducts/"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="VSMeaslesVaccineProducts"/>
+  <title value="MeaslesVaccine Products ValueSet"/>
+  <status value="draft"/>
+  <date value="2024-03-30T08:20:30Z"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="Vaccine Product Codes - representing the codes of the products currently available."/>
+  <compose>
+    <include>
+      <system value="http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts"/>
+    </include>
+  </compose>
+</ValueSet>

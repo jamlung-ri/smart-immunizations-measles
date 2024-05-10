@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSMeaslesVaccineProducts",
+  "meta" : {
+    "lastUpdated" : "2024-05-07T18:35:54.728981Z"
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-VaccineProducts.html\"><code>http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts</code></a></li></ul></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/ValueSet/VSMeaslesVaccineProducts",
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/v2/0203",
+        "code" : "ACSN",
+        "display" : "Accession ID"
+      }],
+      "text" : "Accession ID"
+    },
+    "system" : "https://api.staging.openconceptlab.org",
+    "value" : "/orgs/WHO-SMART-Measles-Test/ValueSet/VSMeaslesVaccineProducts/"
+  }],
+  "version" : "0.1.0",
+  "name" : "VSMeaslesVaccineProducts",
+  "title" : "MeaslesVaccine Products ValueSet",
+  "status" : "draft",
+  "date" : "2024-03-30T08:20:30Z",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Vaccine Product Codes - representing the codes of the products currently available.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://smart.who.int/immunizations-measles/CodeSystem/VaccineProducts"
+    }]
+  }
+}

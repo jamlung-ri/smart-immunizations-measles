@@ -1,0 +1,246 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "IMMZD4ConceptMap",
+  "meta" : {
+    "lastUpdated" : "2024-05-10T14:59:25.395620Z"
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Mapping from (not specified) to (not specified)</p><p>ACTIVE. Published on 2023-10-09 00:00:00+0000 by WHO  (WHO: <a href=\"http://who.int\">http://who.int</a>). </p><div><p>Mapping to and from IMMZ.D4 Data Dictionary to other codesystems.</p>\n</div><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a> to <a href=\"CodeSystem-ICD11.html\">ICD-11</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>DE162 (Currently pregnant)</td><td>:(equivalent)</td><td>QA41 (Pregnant state)</td></tr><tr><td>DE165 (Severely immunosuppressed)</td><td>:(equivalent)</td><td>4B4Z (Diseases of the immune system)</td></tr><tr><td>DE166 (History of anaphylactic reactions)</td><td>:(equivalent)</td><td>QC44.0 (Personal history of anaphylaxis)</td></tr><tr><td>DE167 (Severe allergic reactions)</td><td>:(equivalent)</td><td>QC44.2 (Personal history of allergy to drugs, medicaments or biological substances)</td></tr><tr><td>DE168 (Symptomatic HIV infection)</td><td>:(equivalent)</td><td>1C62.1 (HIV disease clinical stage 2 without mention of tuberculosis or malaria)</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"CodeSystem-ICD11.html\">ICD-11</a> to <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>QA41 (Pregnant state)</td><td>:(equivalent)</td><td>DE162 (Currently pregnant)</td></tr><tr><td>4B4Z (Diseases of the immune system)</td><td>:(equivalent)</td><td>DE165 (Severely immunosuppressed)</td></tr><tr><td>QC44.0 (Personal history of anaphylaxis)</td><td>:(equivalent)</td><td>DE166 (History of anaphylactic reactions)</td></tr><tr><td>QC44.2 (Personal history of allergy to drugs, medicaments or biological substances)</td><td>:(equivalent)</td><td>DE167 (Severe allergic reactions)</td></tr><tr><td>1C62.1 (HIV disease clinical stage 2 without mention of tuberculosis or malaria)</td><td>:(equivalent)</td><td>DE168 (Symptomatic HIV infection)</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a> to <a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-v3-loinc.html\">Logical Observation Identifiers, Names and Codes (LOINC)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>DE162 (Currently pregnant)</td><td>:(equivalent)</td><td>82810-3 (Pregnancy status)</td></tr><tr><td>DE165 (Severely immunosuppressed)</td><td>:(equivalent)</td><td>96381-9 (Immune status)</td></tr><tr><td>DE168 (Symptomatic HIV infection)</td><td>:(equivalent)</td><td>47244-9 (Symptom, diagnosis, or opportunistic infection related to HIV treatment)</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <a href=\"http://terminology.hl7.org/5.4.0/CodeSystem-v3-loinc.html\">Logical Observation Identifiers, Names and Codes (LOINC)</a> to <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>82810-3 (Pregnancy status)</td><td>:(equivalent)</td><td>DE162 (Currently pregnant)</td></tr><tr><td>96381-9 (Immune status)</td><td>:(equivalent)</td><td>DE165 (Severely immunosuppressed)</td></tr><tr><td>47244-9 (Symptom, diagnosis, or opportunistic infection related to HIV treatment)</td><td>:(equivalent)</td><td>DE168 (Symptomatic HIV infection)</td></tr></table><hr/><p><b>Group 5 </b>Mapping from <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a> to <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\">SNOMED CT (all versions)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>DE162 (Currently pregnant)</td><td>:(equivalent)</td><td>77386006 (Pregnancy)</td></tr><tr><td>DE165 (Severely immunosuppressed)</td><td>:(equivalent)</td><td>370388006 (Patient immunocompromised)</td></tr><tr><td>DE166 (History of anaphylactic reactions)</td><td>:(equivalent)</td><td>10839421000119100</td></tr><tr><td>DE167 (Severe allergic reactions)</td><td>:(equivalent)</td><td>419076005 (Allergic reaction (disorder))</td></tr><tr><td>DE168 (Symptomatic HIV infection)</td><td>:(equivalent)</td><td>86406008 (Human immunodeficiency virus infection)</td></tr></table><hr/><p><b>Group 6 </b>Mapping from <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\">SNOMED CT (all versions)</a> to <a href=\"CodeSystem-IMMZ.D4.html\">IMMZ.D4 CodeSystem for Check Contraindications Data Elements</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>77386006 (Pregnancy)</td><td>:(equivalent)</td><td>DE162 (Currently pregnant)</td></tr><tr><td>370388006 (Patient immunocompromised)</td><td>:(equivalent)</td><td>DE165 (Severely immunosuppressed)</td></tr><tr><td>10839421000119100</td><td>:(equivalent)</td><td>DE166 (History of anaphylactic reactions)</td></tr><tr><td>419076005 (Allergic reaction (disorder))</td><td>:(equivalent)</td><td>DE167 (Severe allergic reactions)</td></tr><tr><td>86406008 (Human immunodeficiency virus infection)</td><td>:(equivalent)</td><td>DE168 (Symptomatic HIV infection)</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/ConceptMap/IMMZD4ConceptMap",
+  "identifier" : {
+    "type" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/v2/0203",
+        "code" : "ACSN",
+        "display" : "Accession ID"
+      }],
+      "text" : "Accession ID"
+    },
+    "system" : "https://api.staging.openconceptlab.org",
+    "value" : "/orgs/WHO-SMART-Measles-Test/ConceptMap/IMMZD4ConceptMap/"
+  },
+  "version" : "0.1.0",
+  "name" : "IMMZ_D4_ConceptMap",
+  "title" : "ConceptMap to and from IMMZ.D4 DataElements",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-09T00:00:00Z",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Mapping to and from IMMZ.D4 Data Dictionary to other codesystems.",
+  "group" : [{
+    "source" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "target" : "http://id.who.int/icd/release/11/mms",
+    "element" : [{
+      "code" : "DE162",
+      "target" : [{
+        "code" : "QA41",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE165",
+      "target" : [{
+        "code" : "4B4Z",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE166",
+      "target" : [{
+        "code" : "QC44.0",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE167",
+      "target" : [{
+        "code" : "QC44.2",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE168",
+      "target" : [{
+        "code" : "1C62.1",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://id.who.int/icd/release/11/mms",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "element" : [{
+      "code" : "QA41",
+      "target" : [{
+        "code" : "DE162",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "4B4Z",
+      "target" : [{
+        "code" : "DE165",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "QC44.0",
+      "target" : [{
+        "code" : "DE166",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "QC44.2",
+      "target" : [{
+        "code" : "DE167",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "1C62.1",
+      "target" : [{
+        "code" : "DE168",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "target" : "http://loinc.org",
+    "element" : [{
+      "code" : "DE162",
+      "target" : [{
+        "code" : "82810-3",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE165",
+      "target" : [{
+        "code" : "96381-9",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE168",
+      "target" : [{
+        "code" : "47244-9",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://loinc.org",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "element" : [{
+      "code" : "82810-3",
+      "target" : [{
+        "code" : "DE162",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "96381-9",
+      "target" : [{
+        "code" : "DE165",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "47244-9",
+      "target" : [{
+        "code" : "DE168",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "target" : "http://snomed.info/sct",
+    "element" : [{
+      "code" : "DE162",
+      "target" : [{
+        "code" : "77386006",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE165",
+      "target" : [{
+        "code" : "370388006",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE166",
+      "target" : [{
+        "code" : "10839421000119100",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE167",
+      "target" : [{
+        "code" : "419076005",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE168",
+      "target" : [{
+        "code" : "86406008",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://snomed.info/sct",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+    "element" : [{
+      "code" : "77386006",
+      "target" : [{
+        "code" : "DE162",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "370388006",
+      "target" : [{
+        "code" : "DE165",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "10839421000119100",
+      "target" : [{
+        "code" : "DE166",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "419076005",
+      "target" : [{
+        "code" : "DE167",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "86406008",
+      "target" : [{
+        "code" : "DE168",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  }]
+}

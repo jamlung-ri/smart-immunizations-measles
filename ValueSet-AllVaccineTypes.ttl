@@ -1,0 +1,82 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smart.who.int/immunizations-measles/ValueSet/AllVaccineTypes> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AllVaccineTypes"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2024-05-07T19:54:00.418190Z"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"CodeSystem-ICD11.html\"><code>http://id.who.int/icd/release/11/mms</code></a> where parent  =  <a href=\"CodeSystem-ICD11.html#ICD11-XM28X5\">XM28X5</a></li><li>Include these codes as defined in <a href=\"CodeSystem-ICD11.html\"><code>http://id.who.int/icd/release/11/mms</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ICD11.html#ICD11-XM28X5\">XM28X5</a></td><td style=\"color: #cccccc\">Measles vaccines</td></tr><tr><td><a href=\"CodeSystem-ICD11.html#ICD11-XM1131\">XM1131</a></td><td style=\"color: #cccccc\">Mumps vaccines</td></tr></table></li><li>Include codes from <a href=\"CodeSystem-ICD11.html\"><code>http://id.who.int/icd/release/11/mms</code></a> where parent  =  <a href=\"CodeSystem-ICD11.html#ICD11-XM1131\">XM1131</a></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/30940-1/\">30940-1</a></td><td>Measles virus+Mumps virus+Rubella virus dose count in combination vaccine</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/836382004\">836382004</a></td><td>Measles morbillivirus antigen-containing vaccine product</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://smart.who.int/immunizations-measles/ValueSet/AllVaccineTypes"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/v2/0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "ACSN" ] ;
+         fhir:display [ fhir:v "Accession ID" ]
+       ] ) ;
+       fhir:text [ fhir:v "Accession ID" ]
+     ] ;
+     fhir:system [ fhir:v "https://api.staging.openconceptlab.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "/orgs/WHO-SMART-Measles-Test/ValueSet/AllVaccineTypes/" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AllVaccineTypes"] ; # 
+  fhir:title [ fhir:v "Vaccine Type ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-30T08:20:30Z"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "WHO"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "WHO" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://who.int" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Vaccine type Codes, containing the different types of antigens used in vaccine guidelines."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "30940-1" ] ;
+         fhir:display [ fhir:v "Measles virus+Mumps virus+Rubella virus dose count in combination vaccine" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "836382004" ] ;
+         fhir:display [ fhir:v "Measles morbillivirus antigen-containing vaccine product" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "/orgs/WHO-SMART-Measles-Test/ValueSet/ICD11/"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "XM2340" ]
+       ] [
+         fhir:code [ fhir:v "XM4AJ8" ]
+       ] [
+         fhir:code [ fhir:v "XM21H2" ]
+       ] [
+         fhir:code [ fhir:v "XM8TF3" ]
+       ] [
+         fhir:code [ fhir:v "XM9439" ]
+       ] [
+         fhir:code [ fhir:v "XM8L15" ]
+       ] [
+         fhir:code [ fhir:v "XM1131" ]
+       ] [
+         fhir:code [ fhir:v "XM28X5" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

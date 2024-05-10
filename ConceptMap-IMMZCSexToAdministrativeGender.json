@@ -1,0 +1,104 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "IMMZCSexToAdministrativeGender",
+  "meta" : {
+    "lastUpdated" : "2024-05-10T14:59:04.866811Z"
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Mapping from (not specified) to (not specified)</p><p>ACTIVE. Published on 2023-08-09 00:00:00+0000 by WHO  (WHO: <a href=\"http://who.int\">http://who.int</a>). </p><div><p>Mapping to and from IMMZ.C sex coding to FHIR Administrative Gender.</p>\n</div><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-IMMZ.C.html\">IMMZ.C CodeSystem for Data Elements</a> to <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>DE6 (Male)</td><td>:(equivalent)</td><td>male</td></tr><tr><td>DE7 (Female)</td><td>:(equivalent)</td><td>female</td></tr><tr><td>DE8 (Biological sex not specified)</td><td>:(equivalent)</td><td>unknown</td></tr><tr><td>DE9 (Intersex)</td><td>:(equivalent)</td><td>other</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender</a> to <a href=\"CodeSystem-IMMZ.C.html\">IMMZ.C CodeSystem for Data Elements</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td>:(equivalent)</td><td>DE6 (Male)</td></tr><tr><td>female</td><td>:(equivalent)</td><td>DE7 (Female)</td></tr><tr><td>unknown</td><td>:(equivalent)</td><td>DE8 (Biological sex not specified)</td></tr><tr><td>other</td><td>:(equivalent)</td><td>DE9 (Intersex)</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/ConceptMap/IMMZCSexToAdministrativeGender",
+  "identifier" : {
+    "type" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/v2/0203",
+        "code" : "ACSN",
+        "display" : "Accession ID"
+      }],
+      "text" : "Accession ID"
+    },
+    "system" : "https://api.staging.openconceptlab.org",
+    "value" : "/orgs/WHO-SMART-Measles-Test/ConceptMap/IMMZCSexToAdministrativeGender/"
+  },
+  "version" : "0.1.0",
+  "name" : "IMMZ_C_SexToAdministrativeGender",
+  "title" : "ConceptMap to and From IMMZ.C sex to administrative gender",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-08-09T00:00:00Z",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Mapping to and from IMMZ.C sex coding to FHIR Administrative Gender.",
+  "group" : [{
+    "source" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C",
+    "target" : "http://hl7.org/fhir/administrative-gender",
+    "element" : [{
+      "code" : "DE6",
+      "target" : [{
+        "code" : "male",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE7",
+      "target" : [{
+        "code" : "female",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE8",
+      "target" : [{
+        "code" : "unknown",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "DE9",
+      "target" : [{
+        "code" : "other",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/administrative-gender",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.C",
+    "element" : [{
+      "code" : "male",
+      "target" : [{
+        "code" : "DE6",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "female",
+      "target" : [{
+        "code" : "DE7",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "unknown",
+      "target" : [{
+        "code" : "DE8",
+        "equivalence" : "relatedto"
+      }]
+    },
+    {
+      "code" : "other",
+      "target" : [{
+        "code" : "DE9",
+        "equivalence" : "relatedto"
+      }]
+    }]
+  }]
+}
