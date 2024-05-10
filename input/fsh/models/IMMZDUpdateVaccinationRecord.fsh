@@ -50,74 +50,74 @@ Description:  "Data elements for IMMZ.D Update Vaccination Record."
 
 
 
-CodeSystem:   IMMZ.D1.DE1
-Title:        "IMMZ.D1.DE1 CodeSystem for Immunization status"
-Description:  "CodeSystem for IMMZ.D1.DE1 Immunization status"
+// CodeSystem:   IMMZ.D1.DE1
+// Title:        "IMMZ.D1.DE1 CodeSystem for Immunization status"
+// Description:  "CodeSystem for IMMZ.D1.DE1 Immunization status"
 
-* ^experimental = false
-* ^caseSensitive = false
-* ^name = "IMMZ_D1"
+// * ^experimental = false
+// * ^caseSensitive = false
+// * ^name = "IMMZ_D1"
 
-* #IMMZ.D.DE2 "Completed" "The immunization event was successfully carried out as intended"
-* #IMMZ.D.DE3 "Entered in error" "Immunization event record has been mistakenly created or entered into system. Recorded information is incorrect or should not have been documented, though it is possible that real-world decisions were based on it"
-* #IMMZ.D.DE4 "Not Done" "Planned immunization event was not carried out for some reason"
-
-
-ValueSet: IMMZ.D1.DE1VS
-Title:        "IMMZ.D1.DE1 CodeSystem for Immunization status"
-Description:  "CodeSystem for IMMZ.D1.DE1 Immunization status"
-* ^experimental = false
-* ^name = "IMMZD1DE1VS"
-
-* IMMZ.D1.DE1#IMMZ.D.DE2
-* IMMZ.D1.DE1#IMMZ.D.DE3
-* IMMZ.D1.DE1#IMMZ.D.DE4
+// * #IMMZ.D.DE2 "Completed" "The immunization event was successfully carried out as intended"
+// * #IMMZ.D.DE3 "Entered in error" "Immunization event record has been mistakenly created or entered into system. Recorded information is incorrect or should not have been documented, though it is possible that real-world decisions were based on it"
+// * #IMMZ.D.DE4 "Not Done" "Planned immunization event was not carried out for some reason"
 
 
+// ValueSet: IMMZ.D1.DE1VS
+// Title:        "IMMZ.D1.DE1 CodeSystem for Immunization status"
+// Description:  "CodeSystem for IMMZ.D1.DE1 Immunization status"
+// * ^experimental = false
+// * ^name = "IMMZD1DE1VS"
+
+// * IMMZ.D1.DE1#IMMZ.D.DE2
+// * IMMZ.D1.DE1#IMMZ.D.DE3
+// * IMMZ.D1.DE1#IMMZ.D.DE4
 
 
 
-CodeSystem:   IMMZ.D1.DE5
-Title:        "IMMZ.D1.DE5 CodeSystem for Reason Not Done"
-Description:  "CodeSystem for IMMZ.D1.DE5 Reason Not Done"
-
-* ^experimental = false
-* ^caseSensitive = false
-* ^name = "IMMZ_D1"
-
-* #IMMZ.D.DE6 "Immunity Testing has shown that the client already has immunity to the agent targeted by the immunization"
-* #IMMZ.D.DE7 "Medical precaution" "The client currently has a medical condition for which the vaccine is contraindicated or for which precaution is warranted"
-* #IMMZ.D.DE8 "Product out of stock" "There was no supply of the product on hand to perform the service"
-* #IMMZ.D.DE9 "Client objection" "The client or their guardian objects to receiving the vaccine"
-* #IMMZ.D.DE10 "Caregiver refusal" "The client's caregiver refused the vaccine"
-* #IMMZ.D.DE11 "Unspecified reason" "The immunization event was not carried out for an unspecified reason"
-* #IMMZ.D.DE12 "Client allergy to vaccine or component" "The immunization event was not carried out because of client allergy to vaccine or component"
-* #IMMZ.D.DE13 "Immunocompromised" "The immunization event was not carried out because the client is immunocompromised"
-* #IMMZ.D.DE14 "Chronic illness or condition" "The immunization event was not carried out due a chronic illness or condition of the client"
-* #IMMZ.D.DE15 "Acute illness" "The immunization event was not carried out due to an acute illness present in the client"
-* #IMMZ.D.DE16 "Had the disease" "The immunization event was not carried out due to the client having had the disease"
-* #IMMZ.D.DE17 "Immunization not carried out for other reasons" "The immunization event was not carried out for other reasons"
 
 
+// CodeSystem:   IMMZ.D1.DE5
+// Title:        "IMMZ.D1.DE5 CodeSystem for Reason Not Done"
+// Description:  "CodeSystem for IMMZ.D1.DE5 Reason Not Done"
 
-ValueSet: IMMZ.D1.DE5VS
-Title:        "IMMZ.D1.DE5 CodeSystem for Reason Not Done"
-Description:  "CodeSystem for IMMZ.D1.DE5 Reason Not Done"
-* ^experimental = false
-* ^name = "IMMZD1DE5VS"
+// * ^experimental = false
+// * ^caseSensitive = false
+// * ^name = "IMMZ_D1"
 
-* IMMZ.D1.DE5#IMMZ.D.DE6
-* IMMZ.D1.DE5#IMMZ.D.DE7
-* IMMZ.D1.DE5#IMMZ.D.DE8
-* IMMZ.D1.DE5#IMMZ.D.DE9
-* IMMZ.D1.DE5#IMMZ.D.DE10
-* IMMZ.D1.DE5#IMMZ.D.DE11
-* IMMZ.D1.DE5#IMMZ.D.DE12
-* IMMZ.D1.DE5#IMMZ.D.DE13
-* IMMZ.D1.DE5#IMMZ.D.DE14
-* IMMZ.D1.DE5#IMMZ.D.DE15
-* IMMZ.D1.DE5#IMMZ.D.DE16
-* IMMZ.D1.DE5#IMMZ.D.DE17
+// * #IMMZ.D.DE6 "Immunity Testing has shown that the client already has immunity to the agent targeted by the immunization"
+// * #IMMZ.D.DE7 "Medical precaution" "The client currently has a medical condition for which the vaccine is contraindicated or for which precaution is warranted"
+// * #IMMZ.D.DE8 "Product out of stock" "There was no supply of the product on hand to perform the service"
+// * #IMMZ.D.DE9 "Client objection" "The client or their guardian objects to receiving the vaccine"
+// * #IMMZ.D.DE10 "Caregiver refusal" "The client's caregiver refused the vaccine"
+// * #IMMZ.D.DE11 "Unspecified reason" "The immunization event was not carried out for an unspecified reason"
+// * #IMMZ.D.DE12 "Client allergy to vaccine or component" "The immunization event was not carried out because of client allergy to vaccine or component"
+// * #IMMZ.D.DE13 "Immunocompromised" "The immunization event was not carried out because the client is immunocompromised"
+// * #IMMZ.D.DE14 "Chronic illness or condition" "The immunization event was not carried out due a chronic illness or condition of the client"
+// * #IMMZ.D.DE15 "Acute illness" "The immunization event was not carried out due to an acute illness present in the client"
+// * #IMMZ.D.DE16 "Had the disease" "The immunization event was not carried out due to the client having had the disease"
+// * #IMMZ.D.DE17 "Immunization not carried out for other reasons" "The immunization event was not carried out for other reasons"
+
+
+
+// ValueSet: IMMZ.D1.DE5VS
+// Title:        "IMMZ.D1.DE5 CodeSystem for Reason Not Done"
+// Description:  "CodeSystem for IMMZ.D1.DE5 Reason Not Done"
+// * ^experimental = false
+// * ^name = "IMMZD1DE5VS"
+
+// * IMMZ.D1.DE5#IMMZ.D.DE6
+// * IMMZ.D1.DE5#IMMZ.D.DE7
+// * IMMZ.D1.DE5#IMMZ.D.DE8
+// * IMMZ.D1.DE5#IMMZ.D.DE9
+// * IMMZ.D1.DE5#IMMZ.D.DE10
+// * IMMZ.D1.DE5#IMMZ.D.DE11
+// * IMMZ.D1.DE5#IMMZ.D.DE12
+// * IMMZ.D1.DE5#IMMZ.D.DE13
+// * IMMZ.D1.DE5#IMMZ.D.DE14
+// * IMMZ.D1.DE5#IMMZ.D.DE15
+// * IMMZ.D1.DE5#IMMZ.D.DE16
+// * IMMZ.D1.DE5#IMMZ.D.DE17
 
 
 
