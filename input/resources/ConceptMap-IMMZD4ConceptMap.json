@@ -1,1 +1,315 @@
-{"resourceType":"ConceptMap","url":"http://smart.who.int/immunizations-measles/ConceptMap/IMMZD4ConceptMap","title":"ConceptMap to and from IMMZ.D4 DataElements","status":"active","id":"IMMZD4ConceptMap","language":"en","meta":{"lastUpdated":"2024-05-10T14:59:25.395620Z"},"version":"0.1.0","identifier":[{"system":"https://api.staging.openconceptlab.org","value":"/orgs/WHO-SMART-Measles-Test/ConceptMap/IMMZD4ConceptMap/","type":{"text":"Accession ID","coding":[{"system":"http://hl7.org/fhir/v2/0203","code":"ACSN","display":"Accession ID"}]}}],"contact":[{"name":"WHO","telecom":[{"value":"http://who.int","system":"url"}]}],"name":"IMMZ_D4_ConceptMap","description":"Mapping to and from IMMZ.D4 Data Dictionary to other codesystems.","publisher":"WHO","date":"2023-10-09T00:00:00Z","experimental":false,"group":[{"source":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","target":"http://id.who.int/icd/release/11/mms","element":[{"code":"DE162","target":[{"code":"QA41","relationship":"equivalent"}]},{"code":"DE165","target":[{"code":"4B4Z","relationship":"relatedto"}]},{"code":"DE166","target":[{"code":"QC44.0","relationship":"equivalent"}]},{"code":"DE167","target":[{"code":"QC44.2","relationship":"relatedto"}]},{"code":"DE168","target":[{"code":"1C62.1","relationship":"equivalent"}]}]},{"source":"http://id.who.int/icd/release/11/mms","target":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","element":[{"code":"QA41","target":[{"code":"DE162","relationship":"equivalent"}]},{"code":"4B4Z","target":[{"code":"DE165","relationship":"relatedto"}]},{"code":"QC44.0","target":[{"code":"DE166","relationship":"equivalent"}]},{"code":"QC44.2","target":[{"code":"DE167","relationship":"relatedto"}]},{"code":"1C62.1","target":[{"code":"DE168","relationship":"equivalent"}]}]},{"source":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","target":"http://loinc.org","element":[{"code":"DE162","target":[{"code":"82810-3","relationship":"equivalent"}]},{"code":"DE165","target":[{"code":"96381-9","relationship":"relatedto"}]},{"code":"DE168","target":[{"code":"47244-9","relationship":"wider"}]}]},{"source":"http://loinc.org","target":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","element":[{"code":"82810-3","target":[{"code":"DE162","relationship":"equivalent"}]},{"code":"96381-9","target":[{"code":"DE165","relationship":"relatedto"}]},{"code":"47244-9","target":[{"code":"DE168","relationship":"narrower"}]}]},{"source":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","target":"http://snomed.info/sct","element":[{"code":"DE162","target":[{"code":"77386006","relationship":"equivalent"}]},{"code":"DE165","target":[{"code":"370388006","relationship":"equivalent"}]},{"code":"DE166","target":[{"code":"10839421000119100","relationship":"equivalent"}]},{"code":"DE167","target":[{"code":"419076005","relationship":"wider"}]},{"code":"DE168","target":[{"code":"86406008","relationship":"equivalent"}]}]},{"source":"http://snomed.info/sct","target":"http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4","element":[{"code":"77386006","target":[{"code":"DE162","relationship":"equivalent"}]},{"code":"370388006","target":[{"code":"DE165","relationship":"equivalent"}]},{"code":"10839421000119100","target":[{"code":"DE166","relationship":"equivalent"}]},{"code":"419076005","target":[{"code":"DE167","relationship":"narrower"}]},{"code":"86406008","target":[{"code":"DE168","relationship":"equivalent"}]}]}]}
+{
+    "resourceType": "ConceptMap",
+    "url": "http://smart.who.int/immunizations-measles/ConceptMap/IMMZD4ConceptMap",
+    "title": "ConceptMap to and from IMMZ.D4 DataElements",
+    "status": "active",
+    "id": "IMMZD4ConceptMap",
+    "language": "en",
+    "meta": {
+        "lastUpdated": "2024-05-10T14:59:25.395620Z"
+    },
+    "version": "0.1.0",
+    "identifier": 
+        {
+            "system": "https://api.staging.openconceptlab.org",
+            "value": "/orgs/WHO-SMART-Measles-Test/ConceptMap/IMMZD4ConceptMap/",
+            "type": {
+                "text": "Accession ID",
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "ACSN",
+                        "display": "Accession ID"
+                    }
+                ]
+            }
+        },
+    "contact": [
+        {
+            "name": "WHO",
+            "telecom": [
+                {
+                    "value": "http://who.int",
+                    "system": "url"
+                }
+            ]
+        }
+    ],
+    "name": "IMMZ_D4_ConceptMap",
+    "description": "Mapping to and from IMMZ.D4 Data Dictionary to other codesystems.",
+    "publisher": "WHO",
+    "date": "2023-10-09T00:00:00Z",
+    "experimental": false,
+    "group": [
+        {
+            "source": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "target": "http://id.who.int/icd/release/11/mms",
+            "element": [
+                {
+                    "code": "DE162",
+                    "target": [
+                        {
+                            "code": "QA41",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE165",
+                    "target": [
+                        {
+                            "code": "4B4Z",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE166",
+                    "target": [
+                        {
+                            "code": "QC44.0",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE167",
+                    "target": [
+                        {
+                            "code": "QC44.2",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE168",
+                    "target": [
+                        {
+                            "code": "1C62.1",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "source": "http://id.who.int/icd/release/11/mms",
+            "target": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "element": [
+                {
+                    "code": "QA41",
+                    "target": [
+                        {
+                            "code": "DE162",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "4B4Z",
+                    "target": [
+                        {
+                            "code": "DE165",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "QC44.0",
+                    "target": [
+                        {
+                            "code": "DE166",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "QC44.2",
+                    "target": [
+                        {
+                            "code": "DE167",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "1C62.1",
+                    "target": [
+                        {
+                            "code": "DE168",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "source": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "target": "http://loinc.org",
+            "element": [
+                {
+                    "code": "DE162",
+                    "target": [
+                        {
+                            "code": "82810-3",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE165",
+                    "target": [
+                        {
+                            "code": "96381-9",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE168",
+                    "target": [
+                        {
+                            "code": "47244-9",
+                            "relationship": "wider"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "source": "http://loinc.org",
+            "target": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "element": [
+                {
+                    "code": "82810-3",
+                    "target": [
+                        {
+                            "code": "DE162",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "96381-9",
+                    "target": [
+                        {
+                            "code": "DE165",
+                            "relationship": "relatedto"
+                        }
+                    ]
+                },
+                {
+                    "code": "47244-9",
+                    "target": [
+                        {
+                            "code": "DE168",
+                            "relationship": "narrower"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "source": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "target": "http://snomed.info/sct",
+            "element": [
+                {
+                    "code": "DE162",
+                    "target": [
+                        {
+                            "code": "77386006",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE165",
+                    "target": [
+                        {
+                            "code": "370388006",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE166",
+                    "target": [
+                        {
+                            "code": "10839421000119100",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE167",
+                    "target": [
+                        {
+                            "code": "419076005",
+                            "relationship": "wider"
+                        }
+                    ]
+                },
+                {
+                    "code": "DE168",
+                    "target": [
+                        {
+                            "code": "86406008",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "source": "http://snomed.info/sct",
+            "target": "http://smart.who.int/immunizations-measles/CodeSystem/IMMZ.D4",
+            "element": [
+                {
+                    "code": "77386006",
+                    "target": [
+                        {
+                            "code": "DE162",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "370388006",
+                    "target": [
+                        {
+                            "code": "DE165",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "10839421000119100",
+                    "target": [
+                        {
+                            "code": "DE166",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                },
+                {
+                    "code": "419076005",
+                    "target": [
+                        {
+                            "code": "DE167",
+                            "relationship": "narrower"
+                        }
+                    ]
+                },
+                {
+                    "code": "86406008",
+                    "target": [
+                        {
+                            "code": "DE168",
+                            "relationship": "equivalent"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
